@@ -1,0 +1,15 @@
+<html>
+<body>
+<h1>Simulation Preview</h1>
+
+<p>Status: {{ result.status }}</p>
+<p>{{ result.message }}</p>
+
+<h2>Frames:</h2>
+
+{% for frame in result.frames %}
+    <img src="/static/{{ frame }}" width="300"><br>
+{% endfor %}
+
+</body>
+</html>

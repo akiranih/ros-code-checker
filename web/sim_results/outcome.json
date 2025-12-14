@@ -1,0 +1,9 @@
+{
+    "status": "SUCCESS",
+    "message": "Fake simulation completed.",
+    "frames": [
+        "frame_0.png",
+        "frame_1.png",
+        "frame_2.png"
+    ]
+}

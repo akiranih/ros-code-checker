@@ -1,0 +1,19 @@
+<html>
+<body>
+<h1>Code Checker Report</h1>
+
+<p><b>Syntax Status:</b> {{ report.syntax.status }}</p>
+
+{% if report.syntax.errors %}
+<h3>Errors:</h3>
+<ul>
+{% for e in report.syntax.errors %}
+    <li>{{ e }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+<a href="/simulate">Run Simulation</a>
+
+</body>
+</html>
