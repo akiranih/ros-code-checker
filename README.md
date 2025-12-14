@@ -11,13 +11,13 @@ Features
 - Validates minimal ROS package structure
 - Generates JSON + text reports
 
-### ✔ 2. Simulation Runner
+### 2. Simulation Runner
 - Generates artificial simulation frames
 - Produces joint log CSV
 - Outputs success/failure JSON
 - Returns preview images for the web interface
 
-### ✔ 3. Web Interface (Flask)
+### 3. Web Interface (Flask)
 - Upload ROS packages
 - Display validation results
 - Trigger simulation
@@ -61,3 +61,4 @@ This tool demonstrates:
 - Simple simulation workflow
 - Web UI integration
 - Logging + report generation
+
